@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 2s linear;
+  height: 200px;
+}
+
+.App-header {
+  background: linear-gradient( 45deg, red, white, blue);
+  height: 250px;
+  padding: 20px;
+  color: black;
+}
+
+.card {
+  padding: 0;
+  margin: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.card:nth-child(even) {
+  background-color:  #ef9a9a;
+}
+
+.card:nth-child(odd) {
+  background-color:  #90caf9;
+}
+
+.btn {
+  margin-bottom: 30px;
+}
+.individual {
+  height: 400px;
+}
